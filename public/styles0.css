@@ -1,0 +1,94 @@
+/* General Reset */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cambria', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: black;
+    color: #333;
+    line-height: 1.6;
+   border:none;
+}
+
+/* Header Section */
+.header {
+    background-color: black;
+    color: #00ffee;
+    padding: 1rem;
+    text-align: center;
+ border : 2px solid white
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+border:none;
+}
+
+.header p {
+    font-size: 1.2rem;
+border:none;
+}
+
+/* Main Section */
+main {
+    padding: 2rem;
+}
+
+.intro, .visualizations, .insights {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: black;
+    border : 2px dotted white;
+
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #00ffee;
+}
+
+p, li {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Visualization Embed */
+.visualizations .tableauPlaceholder {
+    margin-top: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Footer Section */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: black;
+border: 1px solid #ddd;
+    color: #00ffee;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p, li {
+        font-size: 0.9rem;
+    }
+}

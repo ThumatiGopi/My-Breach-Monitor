@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Breach Monitor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Shakti Datasafe</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#breach-report">Breach Report</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sections -->
+    <section id="home">
+        <div class="home-section">
+            <div class="home-container">
+                <h1>Advanced Breach Detection </h1>
+                <p>Leverage cutting-edge breach detection technology and proactive security protocols to safeguard your personal data from unauthorized access and cyber threats.</p>
+                <p>Monitor your data integrity in real-time, receive actionable breach alerts, and follow industry-standard security practices to mitigate risks and enhance your online privacy.</p>
+                <a href="#breach-report" class="btn" onclick="showSection('signup')">Get Started</a>
+            </div>
+            <div class="home-image">
+                <img src="leo.jpg" alt="Data Breach Image">
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <h1 style="text-align: center; color:#ffffff; font-size: 30px;">OUR FEATURES</h1>
+        <div class="features-container">
+            <div class="feature-item">
+                <h3>Real-Time Alerts</h3>
+                <p style="color:#ffffff">Instant notifications for data breaches and unauthorized access in real-time.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Data Encryption</h3>
+                <p style="color:#ffffff">Top-notch encryption algorithms to secure sensitive data from unauthorized access.</p>
+            </div>
+          
+
+
+
+
+  <div class="feature-item">
+                <h3><a href = "index4.html" >Advanced analytics</h3></a>
+                <p style="color:#ffffff">Powerful analytics tools for monitoring security and data health.</p>
+ </div>
+            <div class="feature-item">
+                <h3>Threat Detection</h3>
+                <p style="color:#ffffff">Detect and block malicious activities with advanced algorithms.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="breach-report">
+        <div class="breach-container">
+            <h2>Check for Data Breach</h2>
+            <p>Enter your email to quickly check if it has been compromised in any known data breaches.</p>
+
+            <!-- Integrated Breach Checking Form -->
+            <form id="breachForm" onsubmit="checkBreach(event)">
+                <div class="input-group">
+                    <label for="email" style="color:#ffffff">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                </div>
+
+                <button type="submit" class="btn">Check Breach</button>
+            </form>
+
+            <div id="result" class="result-box">
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>For inquiries, support, or general feedback, reach out to us:</p>
+
+        <div class="contact-info">
+            <div class="contact-item">
+                <p><strong>Email:</strong> <a href="mailto: shaktisupport@gmail.com.com">shaktisupport@gmail.com</a></p>
+            </div>
+            <div class="contact-item">
+                <p><strong>Phone:</strong> +91 6300226844</p>
+            </div>
+            <div class="contact-item">
+                <p><strong>Address:</strong> Amrita Vishwa Vidyapeetham, Amaravati, AP</p>
+            </div>
+        </div>
+
+        <div class="footer-info">
+            <p>&copy; 2024 DataSecurity Inc. All rights reserved. | Powered by TEAM SHAKTI</p>
+            <p>Follow us on <a href="https://github.com/datasecurity" target="_blank">GitHub</a> for more projects</p>
+        </div>
+    </section>
+    <script src="script.js"></script>
+<script> window.chtlConfig = { chatbotId: "5786539858" }; </script>
+<script async data-id="5786539858" id="chatling-embed-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
+
+
+    
+    
+</body>
+
+</html>
